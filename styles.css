@@ -39,8 +39,6 @@ body {
     color: #c0c4d8 !important;
 }
 
-
-
 .hero h1 span {
     color: var(--accent);
 }
@@ -76,7 +74,6 @@ footer {
 footer h6 {
     color: var(--accent);
 }
-
 
 .footer-icon {
     font-size: 1.4rem;
@@ -160,22 +157,18 @@ html {
     overflow-x: hidden;
 }
 
-/* Carrusel full screen */
 #mi-carousel {
     height: 70vh;
-    /* altura según tu estilo */
     width: 100vw;
     overflow: hidden;
 }
 
-/* Cada slide ocupa todo el espacio */
 .carousel-item {
     height: 70vh;
     width: 100vw;
     position: relative;
 }
 
-/* Imagen que cubre todo el slide sin distorsión */
 .carousel-item img {
     position: absolute;
     top: 0;
@@ -187,8 +180,6 @@ html {
     z-index: 1;
 }
 
-
-/* Controles y indicadores con colores acordes */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(102%) contrast(102%);
