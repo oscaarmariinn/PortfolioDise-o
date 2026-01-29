@@ -7,41 +7,43 @@
     <title>Portfolio | Oscar Marín</title>
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Oscar Marin Carreras</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    <li class="nav-item dropdown ms-lg-3">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Idioma
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item active" href="index.html">Español</a></li>
-                            <li><a class="dropdown-item" href="index-en.html">English</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <div id="mi-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Oscar Marin Carreras</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item dropdown ms-lg-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Idioma
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item active" href="proyectos.html">Español</a></li>
+                                <li><a class="dropdown-item" href="projects-en.html">English</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="mi-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="src/bannerDialados.jpg" class="d-block w-100 img-fluid"  alt="Slide 1" />
+                <img src="src/bannerDialados.jpg" class="d-block w-100 img-fluid" alt="Slide 1" />
             </div>
             <div class="carousel-item">
                 <img src="src/bannerBIblioteca.jpg" class="d-block w-100 img-fluid" alt="Slide 2" />
@@ -52,107 +54,112 @@
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#mi-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon"></span>
             <span class="visually-hidden">Anterior</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#mi-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon"></span>
             <span class="visually-hidden">Siguiente</span>
         </button>
 
         <div class="carousel-indicators">
-            <button type="button" class="active" data-bs-target="#mi-carousel" data-bs-slide-to="0"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-    </div>
-
-    <section class="container my-5">
-        <h2>Proyectos</h2>
-        <p>Estos son algunos proyectos que he realizado durante mis estudios.</p>
-    </section>
-
-
-    <section class="container my-5">
-        <div class="row g-4 pb-5">
-            <div class="col-md-6">
-                <div class="feature-card p-4 h-100">
-                    <i class="icon-wrapper"><img src="src/logoProyecto1.png"></i>
-                    <h5 class="mt-3">Restaurante Dialados</h5>
-                    <p class="text-muted">Gestión de reservas de un restaurante ficticio</p>
-                    <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalDialados">
-                        + más
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="feature-card p-4 h-100">
-                    <i class="icon-wrapper"><img src="src/logoProyecto2.png"></i>
-                    <h5 class="mt-3">Biblioteca</h5>
-                    <p class="text-muted">Gestión de biblioteca.</p>
-                    <a href="#" class="text-decoration-none" data-bs-toggle="modal"
-                        data-bs-target="#modalBiblioteca    ">
-                        + más
-                    </a>
-                </div>
-            </div>
-
-        </div>
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="feature-card p-4 h-100">
-                    <i class="icon-wrapper"><img src="src/logoFruta.png"></i>
-                    <h5 class="mt-3">Frutería</h5>
-                    <p class="text-muted">Web de frutería y verdulería con Angular</p>
-                    <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalAngular">
-                        + más
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="feature-card p-4 h-100">
-                    <i class="bi bi-code-slash icon-wrapper"></i>
-                    <h5 class="mt-3">Proyecto Pendiente</h5>
-                    <p class="text-muted">Proyecto pendiente de hacer...</p>
-                    <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalPendent">
-                        + más
-                    </a>
-                </div>
-            </div>
-
+            <button type="button" class="active" data-bs-target="#mi-carousel" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="2"></button>
         </div>
     </section>
+
+    <main>
+
+        <section class="container my-5">
+            <h2>Proyectos</h2>
+            <p>Estos son algunos proyectos que he realizado durante mis estudios.</p>
+        </section>
+
+        <section class="container my-5">
+            <div class="row g-4 pb-5">
+
+                <article class="col-md-6">
+                    <article class="feature-card p-4 h-100">
+                        <i class="icon-wrapper"><img src="src/logoProyecto1.png"></i>
+                        <h5 class="mt-3">Restaurante Dialados</h5>
+                        <p class="text-muted">Gestión de reservas de un restaurante ficticio</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalDialados">+ más</a>
+                    </article>
+                </article>
+
+                <article class="col-md-6">
+                    <article class="feature-card p-4 h-100">
+                        <i class="icon-wrapper"><img src="src/logoProyecto2.png"></i>
+                        <h5 class="mt-3">Biblioteca</h5>
+                        <p class="text-muted">Gestión de biblioteca.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBiblioteca">+ más</a>
+                    </article>
+                </article>
+
+            </div>
+
+            <div class="row g-4">
+
+                <article class="col-md-6">
+                    <article class="feature-card p-4 h-100">
+                        <i class="icon-wrapper"><img src="src/logoFruta.png"></i>
+                        <h5 class="mt-3">Frutería</h5>
+                        <p class="text-muted">Web de frutería y verdulería con Angular</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalAngular">+ más</a>
+                    </article>
+                </article>
+
+                <article class="col-md-6">
+                    <article class="feature-card p-4 h-100">
+                        <i class="bi bi-code-slash icon-wrapper"></i>
+                        <h5 class="mt-3">Proyecto Pendiente</h5>
+                        <p class="text-muted">Proyecto pendiente de hacer...</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalPendent">+ más</a>
+                    </article>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
 
     <footer>
         <div class="container">
             <div class="row g-4">
-                <div class="col-md-3">
+
+                <section class="col-md-3">
                     <h6>Donde me encuentro</h6>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7743.600988514002!2d-0.6142276263831558!3d39.62965330158271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd605f8b6bff7d67%3A0x7380bc112938a0b!2s46160%20Ll%C3%ADria%2C%20Valencia!5e1!3m2!1ses!2ses!4v1769423588525!5m2!1ses!2ses"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                </section>
 
-                <div class="col-md-3">
+                <section class="col-md-3">
                     <h6>Redes</h6>
-                    <i class="bi bi-github footer-icon"></i>
-                    <i class="bi bi-linkedin footer-icon"></i>
-                    <i class="bi bi-phone footer-icon"></i>
-                    <i class="bi bi-envelope footer-icon"></i>
-                </div>
-                <div class="col-md-3">
+                    <a href="https://github.com/oscaarmariinn" target="_blank"><i
+                            class="bi bi-github footer-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/oscarmarincarreras" target="_blank"><i
+                            class="bi bi-linkedin footer-icon"></i></a>
+                    <a href="tel:+34633922726"><i class="bi bi-phone footer-icon"></i></a>
+                    <a href="mailto:lupealbertoscar@gmail.com"><i class="bi bi-envelope footer-icon"></i></a>
+                </section>
+
+                <section class="col-md-3">
                     <h6>Contacto</h6>
                     <p class="text-muted">lupealbertoscar@gmail.com<br>+34 633 922 726</p>
-                </div>
-                <div class="col-md-3">
+                </section>
+
+                <section class="col-md-3">
                     <h6>Oscar Marín Carreras</h6>
                     <p class="text-muted">© 2026</p>
-                </div>
+                </section>
+
             </div>
         </div>
     </footer>
+
     <div class="modal fade" id="modalDialados" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content custom-modal">
@@ -165,7 +172,8 @@
                     <p class="text-muted">
                         Este proyecto lo realicé para proyecto final del primer curso de 1º de DAW. Este trata de la
                         gestión de reservas de un restaurante totalmente ficticio.
-                        En este gaste MYSQL como gestor de la base de datos, que mediante PHP realizaba toda la gestión
+                        En este gaste MYSQL como gestor de la base de datos, que mediante PHP realizaba toda la
+                        gestión
                         de las reservas mediante un formulario. Use HTML y CSS básico para
                         la parte visual de la aplicación web.
                         <br>
@@ -219,7 +227,8 @@
                     <p class="text-muted">
                         Este proyecto consiste en la gestión de miembros, libros y préstamos de una biblioteca. Para
                         este proyecto use el framework de Symfony, donde use el php
-                        para la parte lógica y twig para la parte visual. Este proyecto estaba centrado en el backend no
+                        para la parte lógica y twig para la parte visual. Este proyecto estaba centrado en el
+                        backend no
                         en el diseño.
                         <br>
                         Idiomas que he utilizado:
@@ -256,7 +265,8 @@
                 <div class="modal-body text-center">
                     <h5>Frutería</h5>
                     <p class="text-muted">
-                        Proyecto de Angular en el que se muestran apartados de frutería y verdulería. Este esta hecho
+                        Proyecto de Angular en el que se muestran apartados de frutería y verdulería. Este esta
+                        hecho
                         para la práctica del framework Angular en el que uso TypeScript y HTML5.
                         <br>
                         Idiomas que he utilizado:
@@ -304,6 +314,7 @@
             </div>
         </div>
     </div>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 

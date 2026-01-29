@@ -12,295 +12,308 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Oscar Marin Carreras</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="index-en.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-en.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact-en.html">Contact</a></li>
-                    <li class="nav-item dropdown ms-lg-3">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Language
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="index.html">Español</a></li>
-                            <li><a class="dropdown-item active" href="index-en.html">English</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <div id="mi-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Oscar Marin Carreras</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index-en.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects-en.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-en.html">Contact</a></li>
+                        <li class="nav-item dropdown ms-lg-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Language
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="proyectos.html">Español</a></li>
+                                <li><a class="dropdown-item active" href="projects-en.html">English</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="mi-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="src/bannerDialados.jpg" class="d-block w-100 img-fluid" alt="Slide 1" />
+                <img src="src/bannerDialados.jpg" class="d-block w-100 img-fluid" alt="Slide 1">
             </div>
             <div class="carousel-item">
-                <img src="src/bannerBIblioteca.jpg" class="d-block w-100 img-fluid" alt="Slide 2" />
+                <img src="src/bannerBIblioteca.jpg" class="d-block w-100 img-fluid" alt="Slide 2">
             </div>
             <div class="carousel-item">
-                <img src="src/bannerVerduras.jpg" class="d-block w-100 img-fluid" alt="Slide 3" />
+                <img src="src/bannerVerduras.jpg" class="d-block w-100 img-fluid" alt="Slide 3">
             </div>
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#mi-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon"></span>
             <span class="visually-hidden">Previous</span>
         </button>
+
         <button class="carousel-control-next" type="button" data-bs-target="#mi-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon"></span>
             <span class="visually-hidden">Next</span>
         </button>
 
         <div class="carousel-indicators">
-            <button type="button" class="active" data-bs-target="#mi-carousel" data-bs-slide-to="0"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-    </div>
-
-    <section class="container my-5">
-        <h2>Projects</h2>
-        <p>These are some projects I developed during my studies.</p>
-    </section>
-
-    <section class="container my-5">
-        <div class="row g-4 pb-5">
-            <div class="col-md-6">
-                <div class="feature-card p-4 h-100">
-                    <i class="icon-wrapper"><img src="src/logoProyecto1.png"></i>
-                    <h5 class="mt-3">Dialados Restaurant</h5>
-                    <p class="text-muted">Reservation management for a fictional restaurant</p>
-                    <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalDialados">
-                        + more
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="feature-card p-4 h-100">
-                    <i class="icon-wrapper"><img src="src/logoProyecto2.png"></i>
-                    <h5 class="mt-3">Library</h5>
-                    <p class="text-muted">Library management system.</p>
-                    <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalBiblioteca">
-                        + more
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="feature-card p-4 h-100">
-                    <i class="icon-wrapper"><img src="src/logoFruta.png"></i>
-                    <h5 class="mt-3">Greengrocer</h5>
-                    <p class="text-muted">Greengrocer website built with Angular</p>
-                    <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalAngular">
-                        + more
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="feature-card p-4 h-100">
-                    <i class="bi bi-code-slash icon-wrapper"></i>
-                    <h5 class="mt-3">Pending Project</h5>
-                    <p class="text-muted">Project still to be developed...</p>
-                    <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#modalPendent">
-                        + more
-                    </a>
-                </div>
-            </div>
+            <button type="button" class="active" data-bs-target="#mi-carousel" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#mi-carousel" data-bs-slide-to="2"></button>
         </div>
     </section>
+
+    <main>
+
+        <section class="container my-5">
+            <h2>Projects</h2>
+            <p>These are some projects I developed during my studies.</p>
+        </section>
+
+        <section class="container my-5">
+
+            <div class="row g-4 pb-5">
+
+                <article class="col-md-6">
+                    <article class="feature-card p-4 h-100">
+                        <i class="icon-wrapper"><img src="src/logoProyecto1.png"></i>
+                        <h5 class="mt-3">Dialados Restaurant</h5>
+                        <p class="text-muted">Reservation management for a fictional restaurant</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalDialados">+ more</a>
+                    </article>
+                </article>
+
+                <article class="col-md-6">
+                    <article class="feature-card p-4 h-100">
+                        <i class="icon-wrapper"><img src="src/logoProyecto2.png"></i>
+                        <h5 class="mt-3">Library</h5>
+                        <p class="text-muted">Library management system.</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalBiblioteca">+ more</a>
+                    </article>
+                </article>
+
+            </div>
+
+            <div class="row g-4">
+
+                <article class="col-md-6">
+                    <article class="feature-card p-4 h-100">
+                        <i class="icon-wrapper"><img src="src/logoFruta.png"></i>
+                        <h5 class="mt-3">Greengrocer</h5>
+                        <p class="text-muted">Greengrocer website built with Angular</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalAngular">+ more</a>
+                    </article>
+                </article>
+
+                <article class="col-md-6">
+                    <article class="feature-card p-4 h-100">
+                        <i class="bi bi-code-slash icon-wrapper"></i>
+                        <h5 class="mt-3">Pending Project</h5>
+                        <p class="text-muted">Project still to be developed...</p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modalPendent">+ more</a>
+                    </article>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
 
     <footer>
         <div class="container">
             <div class="row g-4">
-                <div class="col-md-3">
+
+                <section class="col-md-3">
                     <h6>Location</h6>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7743.600988514002!2d-0.6142276263831558!3d39.62965330158271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd605f8b6bff7d67%3A0x7380bc112938a0b!2s46160%20Ll%C3%ADria%2C%20Valencia!5e1!3m2!1ses!2ses!4v1769423588525!5m2!1ses!2ses"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                </section>
 
-                <div class="col-md-3">
+                <section class="col-md-3">
                     <h6>Social</h6>
-                    <i class="bi bi-github footer-icon"></i>
-                    <i class="bi bi-linkedin footer-icon"></i>
-                    <i class="bi bi-phone footer-icon"></i>
-                    <i class="bi bi-envelope footer-icon"></i>
-                </div>
+                    <a href="https://github.com/oscaarmariinn" target="_blank"><i
+                            class="bi bi-github footer-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/oscarmarincarreras" target="_blank"><i
+                            class="bi bi-linkedin footer-icon"></i></a>
+                    <a href="tel:+34633922726"><i class="bi bi-phone footer-icon"></i></a>
+                    <a href="mailto:lupealbertoscar@gmail.com"><i class="bi bi-envelope footer-icon"></i></a>
+                </section>
 
-                <div class="col-md-3">
+                <section class="col-md-3">
                     <h6>Contact</h6>
                     <p class="text-muted">lupealbertoscar@gmail.com<br>+34 633 922 726</p>
-                </div>
+                </section>
 
-                <div class="col-md-3">
+                <section class="col-md-3">
                     <h6>Oscar Marín Carreras</h6>
                     <p class="text-muted">© 2026</p>
+                </section>
+
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalDialados" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content custom-modal">
+                    <button type="button" class="btn-close custom-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <img src="src/bannerDialados.jpg" class="modal-img" alt="Dialados Logo">
+
+                    <div class="modal-body text-center">
+                        <h5>Dialados Restaurant</h5>
+                        <p class="text-muted">
+                            This project was done as the final assignment for the first year of DAW. It focuses on
+                            managing
+                            reservations for a completely fictional restaurant.
+                            I used MySQL as the database management system and PHP to handle all reservation processes
+                            through a form. HTML and basic CSS were used for the visual part of the web application.
+                            <br>
+                            Languages/technologies used:
+                        </p>
+
+                        <div class="row g-4 mt-3">
+                            <div class="col-6 col-md-3">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoPhp.png" alt="PHP">
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoHTML.png" alt="HTML">
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoCSS.png" alt="CSS">
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoMYSQL.png" alt="MySQL">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="modalBiblioteca" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content custom-modal">
+                    <button type="button" class="btn-close custom-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <img src="src/bannerBIblioteca.jpg" class="modal-img" alt="Library Logo">
+
+                    <div class="modal-body text-center">
+                        <h5>Library</h5>
+                        <p class="text-muted">
+                            This project manages members, books, and loans in a library. I used the Symfony framework,
+                            with
+                            PHP for backend logic and Twig for the frontend. This project focused on backend
+                            functionality
+                            rather than design.
+                            <br>
+                            Languages/technologies used:
+                        </p>
+
+                        <div class="row g-4 mt-3">
+                            <div class="col-6 col-md-6">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoSymfony.png" alt="Symfony">
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-6">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoTwig.png" alt="Twig">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalAngular" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content custom-modal">
+                    <button type="button" class="btn-close custom-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <img src="src/bannerVerduras.jpg" class="modal-img" alt="Greengrocer Logo">
+
+                    <div class="modal-body text-center">
+                        <h5>Greengrocer</h5>
+                        <p class="text-muted">
+                            Angular project showcasing sections for a greengrocer and vegetable store. Built as a
+                            practice
+                            project using Angular with TypeScript and HTML5.
+                            <br>
+                            Languages/technologies used:
+                        </p>
+
+                        <div class="row g-4 mt-3">
+                            <div class="col-4 col-md-4">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoAngular.png" alt="Angular">
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-4">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoHTML.png" alt="HTML">
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-4">
+                                <div
+                                    class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
+                                    <img src="src/logoTypeScript.png" alt="TypeScript">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalPendent" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content custom-modal">
+                    <button type="button" class="btn-close custom-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+
+                    <div class="modal-body text-center">
+                        <h5>Pending Project</h5>
+                        <p class="text-muted">
+                            Project pending development during my internship period.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </footer>
-    <div class="modal fade" id="modalDialados" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content custom-modal">
-                <button type="button" class="btn-close custom-close" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-                <img src="src/bannerDialados.jpg" class="modal-img" alt="Dialados Logo">
-
-                <div class="modal-body text-center">
-                    <h5>Dialados Restaurant</h5>
-                    <p class="text-muted">
-                        This project was done as the final assignment for the first year of DAW. It focuses on managing
-                        reservations for a completely fictional restaurant.
-                        I used MySQL as the database management system and PHP to handle all reservation processes
-                        through a form. HTML and basic CSS were used for the visual part of the web application.
-                        <br>
-                        Languages/technologies used:
-                    </p>
-
-                    <div class="row g-4 mt-3">
-                        <div class="col-6 col-md-3">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoPhp.png" alt="PHP">
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-md-3">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoHTML.png" alt="HTML">
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-md-3">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoCSS.png" alt="CSS">
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-md-3">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoMYSQL.png" alt="MySQL">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modalBiblioteca" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content custom-modal">
-                <button type="button" class="btn-close custom-close" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-                <img src="src/bannerBIblioteca.jpg" class="modal-img" alt="Library Logo">
-
-                <div class="modal-body text-center">
-                    <h5>Library</h5>
-                    <p class="text-muted">
-                        This project manages members, books, and loans in a library. I used the Symfony framework, with
-                        PHP for backend logic and Twig for the frontend. This project focused on backend functionality
-                        rather than design.
-                        <br>
-                        Languages/technologies used:
-                    </p>
-
-                    <div class="row g-4 mt-3">
-                        <div class="col-6 col-md-6">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoSymfony.png" alt="Symfony">
-                            </div>
-                        </div>
-
-                        <div class="col-6 col-md-6">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoTwig.png" alt="Twig">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modalAngular" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content custom-modal">
-                <button type="button" class="btn-close custom-close" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-                <img src="src/bannerVerduras.jpg" class="modal-img" alt="Greengrocer Logo">
-
-                <div class="modal-body text-center">
-                    <h5>Greengrocer</h5>
-                    <p class="text-muted">
-                        Angular project showcasing sections for a greengrocer and vegetable store. Built as a practice
-                        project using Angular with TypeScript and HTML5.
-                        <br>
-                        Languages/technologies used:
-                    </p>
-
-                    <div class="row g-4 mt-3">
-                        <div class="col-4 col-md-4">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoAngular.png" alt="Angular">
-                            </div>
-                        </div>
-
-                        <div class="col-4 col-md-4">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoHTML.png" alt="HTML">
-                            </div>
-                        </div>
-
-                        <div class="col-4 col-md-4">
-                            <div
-                                class="feature-card modal-tech-card h-100 d-flex align-items-center justify-content-center">
-                                <img src="src/logoTypeScript.png" alt="TypeScript">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="modalPendent" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content custom-modal">
-                <button type="button" class="btn-close custom-close" data-bs-dismiss="modal"
-                    aria-label="Close"></button>
-
-                <div class="modal-body text-center">
-                    <h5>Pending Project</h5>
-                    <p class="text-muted">
-                        Project pending development during my internship period.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
