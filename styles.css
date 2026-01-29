@@ -198,3 +198,25 @@ html {
     background-color: var(--accent);
     box-shadow: var(--shadow-glow);
 }
+
+.custom-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: var(--bg-soft);
+    color: var(--accent);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.custom-close:hover {
+    opacity: 1;
+    background-color: var(--accent-soft);
+}
